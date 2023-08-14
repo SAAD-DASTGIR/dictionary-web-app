@@ -1,0 +1,130 @@
+:root {
+  --font-family-one: 'Bricolage Grotesque', sans-serif;
+  --font-family-two: 'Inter', sans-serif;
+  --font-family-three: 'Josefin Sans', sans-serif;
+  --font-family-four: 'Outfit', sans-serif;
+  --font-family-five: 'Kumbh Sans', sans-serif;
+  --font-family-six: 'Rubik', sans-serif;
+  --font-weight-regular: 300;
+  --font-weight-bold: 900;
+}
+.box {
+  background-color: #f7f7f7;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 100vw;;
+  min-height: 100vh;
+}
+.header{
+  font-family: var(--font-family-four);
+  text-align: center;
+  justify-content: center;
+  margin-top: 7em;
+  margin-bottom: 2em;
+}
+/* SearchForm.css */
+.search-form {
+  display: flex;
+  align-items: center;
+  /* margin-left: 35%;
+  margin-right: 33%; */
+  text-align: center;
+  justify-content: center;
+  font-family: var(--font-family-one);
+}
+
+.search-input {
+  width: 20em;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+/* .data{ */
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-left: 35%;
+  margin-right: 33%; */
+  /* text-align: center;
+  justify-content: center; */
+/* } */
+/* .word{
+  font-family: var(--font-family-one);
+  align-items: center;
+  justify-content: center;
+  text-align:justify;
+  margin-top: 2em;
+  margin-left: 24.5em;
+  margin-bottom: 1em;
+  font-weight: var(--font-weight-bold);
+
+} */
+/* Data.css */
+
+
+.word {
+  font-size: 24px;
+  font-family: var(--font-family-four);
+  margin: 10px 0;
+  color: #666;
+  margin-top: 1em;
+}
+.details{
+  margin-top: 2.5em;
+}
+.part-of-speech {
+  font-size: 18px;
+  font-family: var(--font-family-one);
+  color: #666;
+}
+
+.defination {
+  font-size: 14px;
+  font-family: var(--font-family-four);
+  margin: 10px 0;
+  color: #444;
+}
+.example{
+  font-size: 18px;
+  font-family: var(--font-family-four);
+  margin: 10px 0;
+  color: #666;
+}
+.antonym{
+  font-size: 18px;
+  font-family: var(--font-family-four);
+  color: #666;
+
+}
+.synonym{
+  font-size: 18px;
+  font-family: var(--font-family-four);
+  color: #666;
+}
+
+.footer{
+  text-align:end;
+  margin-top: 25em;
+  font-size: 18px;
+  font-family: var(--font-family-four);
+  color: #666;
+}
